@@ -1,0 +1,22 @@
+{
+  "name": "My-ui",
+  "version": "1.0.0",
+  "description": "作者：肖丰",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

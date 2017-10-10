@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My module</title>
+  <link rel="stylesheet" href="./dist/style.css">
+</head>
+<body>
+  <div class="page">
+    <div class="wrap">
+      <div class="page-tab">
+        <ul class="tabs">
+          <li>轮播</li>
+          <li>瀑布流布局</li>
+          <li>懒加载</li>
+          <li>木桶布局</li>
+        </ul>
+      </div>
+      <section>
+        <h1>我的组件</h1>
+        <p>这里通过 Tab 组件，展示轮播、瀑布流、懒加载、木桶布局</p>
+        <p><span>START!</span></p>
+      </section>
+      <div class="panels">
+        <div class="page-carousel">
+          <ul class="imgs">
+            <li>
+              <a href="#">
+                <img src="./sources/1.jpg">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./sources/2.jpg">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./sources/3.jpg">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./sources/4.jpg">
+              </a>
+            </li>
+          </ul>
+          <div class="btnLN">
+            <p class="left"><</p>
+            <p class="next">></p>
+          </div>
+          <div class="btns">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="page-waterpull">
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+          </ul>
+          <div class="btn1">width:670px</div>
+          <div class="btn2">width:540px</div>
+        </div>
+        <div class="page-lazy">
+          <ul class="wrap">
+          </ul>
+          <div class="btn">继续滚动即可加载图片</div>
+        </div>
+        <div class="page-barrel">
+          <div class="wrap"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a href="">Github</a>
+      <a href="">Me</a>
+    </footer>
+  </div>
+  <script src="./dist/bundle.js"></script>
+</body>
+</html>

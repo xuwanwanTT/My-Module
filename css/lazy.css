@@ -1,0 +1,26 @@
+.page-lazy {
+  overflow-y: auto;
+  height: 430px;
+}
+
+.page-lazy .wrap {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.page-lazy .wrap > li {
+  text-align: center;
+}
+
+.page-lazy img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+}
+
+.page-lazy .btn {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
